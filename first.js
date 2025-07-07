@@ -6,8 +6,6 @@ let papa = "Papa";
 let grandma = "Grandma";
 let grandpa = "Grandpa";
 let doodoo = "doo doo doo, doo doo doo doo doo.";
-let swimfastercomma = "Swim faster,";
-let swimfasterdot = "Swim faster.";
 
 console.log(baby + sharkdodo);
 console.log(baby + sharkdodo);
