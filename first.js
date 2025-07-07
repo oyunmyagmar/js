@@ -2,6 +2,16 @@ let sharkdodo = " shark, doo, doo, doo, doo, doo, doo.";
 let baby = "Baby";
 let mommy = "Mommy";
 let shark = " shark!";
+
+console.log(baby + sharkdodo);
+console.log(baby + sharkdodo);
+console.log(baby + sharkdodo);
+console.log(baby + shark);
+console.log();
+
+
+
+
 let papa = "Papa";
 let grandma = "Grandma";
 let grandpa = "Grandpa";
