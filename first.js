@@ -1,9 +1,15 @@
 let x = 10
 let y = 30
-//console.log(x + z) ingej bichij blohgui deerees doosh unshine z is undefined 
+//console.log(x + z); ingej bichij blohgui deerees doosh unshine z is undefined 
 console.log( x + y );
+
 let z = 40
 console.log (x + y + z)
+
+//let name = miga; gvel miga-g huvsagch gej oilgono. tiimes utga gej oilgulahin tuld "haaltand oruulna"
+let name = "miga";
+console.log("name")
+
 
 let baby = "Baby";
 let sharkdodo = " shark, doo, doo, doo, doo, doo, doo.";

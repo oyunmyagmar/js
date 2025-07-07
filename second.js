@@ -5,6 +5,7 @@ console.log (2025 - age)
 //string -> ug uguulber
 let name = "miga";
 
+
 //false -> hudal 0
 //unen -> unen 1
 let graduated = false;

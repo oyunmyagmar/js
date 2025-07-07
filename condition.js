@@ -62,3 +62,4 @@ if (num6 % 7 == 0) {
 } else {
   console.log("7-d huvagddaggui");
 }
+let num7 = 5
