@@ -1,3 +1,10 @@
+let x = 10
+let y = 30
+//console.log(x + z) ingej bichij blohgui deerees doosh unshine z is undefined 
+console.log( x + y );
+let z = 40
+console.log (x + y + z)
+
 let baby = "Baby";
 let sharkdodo = " shark, doo, doo, doo, doo, doo, doo.";
 let shark = " shark!";

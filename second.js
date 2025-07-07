@@ -1,5 +1,6 @@
 //number -> too
 let age = 20;
+console.log (2025 - age)
 
 //string -> ug uguulber
 let name = "miga";
