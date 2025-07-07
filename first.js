@@ -1,21 +1,21 @@
-let sharkdodo = " shark, doo, doo, doo, doo, doo, doo.";
 let baby = "Baby";
-let mommy = "Mommy";
+let sharkdodo = " shark, doo, doo, doo, doo, doo, doo.";
 let shark = " shark!";
-
-console.log(baby + sharkdodo);
-console.log(baby + sharkdodo);
-console.log(baby + sharkdodo);
-console.log(baby + shark);
-console.log();
-
-
-
-
-let papa = "Papa";
+let mommy = "Mommy";
+let daddy = "Daddy";
 let grandma = "Grandma";
-let grandpa = "Grandpa";
-let doodoo = "doo doo doo, doo doo doo doo doo.";
+let letsgo= "Let's go,"; 
+let huntdodo = " hunt, doo, doo, doo, doo, doo, doo.";
+let hunt = " hunt!";
+let run = "Run";
+let awaydodo = " away, doo, doo, doo, doo, doo, doo.";
+let away = " away!";
+let safe = "Safe";
+let atlastdodo = " at last, doo, doo, doo, doo, doo, doo."
+let atlast = " at last!"
+let its = "It's"
+let theenddodo = " the end, doo, doo, doo, doo, doo, doo."
+let theend = " the end!"
 
 console.log(baby + sharkdodo);
 console.log(baby + sharkdodo);
@@ -27,17 +27,32 @@ console.log(mommy + sharkdodo);
 console.log(mommy + sharkdodo);
 console.log(mommy + shark);
 console.log();
-console.log(papa + sharkdodo);
-console.log(papa + sharkdodo);
-console.log(papa + sharkdodo);
-console.log(papa + shark);
+console.log(daddy + sharkdodo);
+console.log(daddy + sharkdodo);
+console.log(daddy + sharkdodo);
+console.log(daddy + shark);
 console.log();
+console.log(grandma + sharkdodo); 
 console.log(grandma + sharkdodo);
-console.log(grandma + sharkdodo);
-console.log(grandma + sharkdodo);
+console.log(grandma + sharkdodo)
 console.log(grandma + shark);
 console.log();
-console.log(grandpa + sharkdodo);
-console.log(grandpa + sharkdodo);
-console.log(grandpa + sharkdodo);
-console.log(grandpa + shark);
+console.log(letsgo + huntdodo);
+console.log(letsgo + huntdodo);
+console.log(letsgo + huntdodo);
+console.log(letsgo + hunt);
+console.log()
+console.log(run + awaydodo);
+console.log(run + awaydodo);
+console.log(run + awaydodo);
+console.log(run + away);
+console.log();
+console.log(safe + atlastdodo);
+console.log(safe + atlastdodo); 
+console.log(safe + atlastdodo);
+console.log(safe + atlast);
+console.log();
+console.log(its + theenddodo); 
+console.log(its + theenddodo); 
+console.log(its + theenddodo); 
+console.log(its + theend);
