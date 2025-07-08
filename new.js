@@ -6,13 +6,14 @@ let hello = "Hello! ";
 button.addEventListener("click", () => {
   console.log(hello + input.value);
 });
+
 // + - * / calculator
 let num1 = document.getElementById("num1-input");
 let num2 = document.getElementById("num2-input");
-let plusbutton = document.getElementById("plus");
-let minusbutton = document.getElementById("minus");
-let multiplybutton = document.getElementById("multiply");
-let dividebutton = document.getElementById("divide");
+let plusbutton = document.getElementById("plus-btn");
+let minusbutton = document.getElementById("minus-btn");
+let multiplybutton = document.getElementById("multiply-btn");
+let dividebutton = document.getElementById("divide-btn");
 
 plusbutton.addEventListener("click", () => {
   console.log(parseInt(num1.value) + parseInt(num2.value));
@@ -28,15 +29,15 @@ dividebutton.addEventListener("click", () => {
 });
 
 //Biggest value calculator
-let num11input = document.getElementById("num11-input");
-let num12input = document.getElementById("num12-input");
-let num13input = document.getElementById("num13-input");
-let submitbutton = document.getElementById("submit-button");
+let inputnum11 = document.getElementById("num11-input");
+let inputnum12 = document.getElementById("num12-input");
+let inputnum13 = document.getElementById("num13-input");
+let submitbigbtn = document.getElementById("submit-biggest-btn");
 
-submitbutton.addEventListener("click", () => {
-  let num11 = parseInt(num11input.value);
-  let num12 = parseInt(num12input.value);
-  let num13 = parseInt(num13input.value);
+submitbigbtn.addEventListener("click", () => {
+  let num11 = parseInt(inputnum11.value);
+  let num12 = parseInt(inputnum12.value);
+  let num13 = parseInt(inputnum13.value);
   if (num11 > num12) {
     if (num11 > num13) {
       console.log(num11);
@@ -52,16 +53,39 @@ submitbutton.addEventListener("click", () => {
   }
 });
 //lowest value calculator
+let inputnum21 = document.getElementById("num21-input");
+let inputnum22 = document.getElementById("num22-input");
+let inputnum23 = document.getElementById("num23-input");
+let submitsmallbtn = document.getElementById("submit-smallest-btn");
+
+submitsmallbtn.addEventListener("click", () => {
+  let num21 = parseInt(inputnum21.value);
+  let num22 = parseInt(inputnum22.value);
+  let num23 = parseInt(inputnum23.value);
+  if (num21 < num22) {
+    if (num21 < num23) {
+      console.log(num21);
+    } else {
+      console.log(num22);
+    }
+  } else {
+    if (num22 < num23) {
+      console.log(num22);
+    } else {
+      console.log(num23);
+    }
+  }
+});
 
 //average calcultor
-let num31input = document.getElementById("num31-input");
-let num32input = document.getElementById("num32-input");
-let num33input = document.getElementById("num33-input");
-let averagebutton = document.getElementById("average-button");
+let inputnum31 = document.getElementById("num31-input");
+let inputnum32 = document.getElementById("num32-input");
+let inputnum33 = document.getElementById("num33-input");
+let averagebutton = document.getElementById("average-btn");
 
 averagebutton.addEventListener("click", () => {
-  let num31 = parseInt(num31input.value);
-  let num32 = parseInt(num32input.value);
-  let num33 = parseInt(num33input.value);
+  let num31 = parseInt(inputnum31.value);
+  let num32 = parseInt(inputnum32.value);
+  let num33 = parseInt(inputnum33.value);
   console.log((num31 + num32 + num33) / 3);
 });
