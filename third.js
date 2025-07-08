@@ -8,12 +8,15 @@ console.log(num1 - num2);
 let num3 = 40;
 let num4 = 50;
 console.log(num3 + num4);
-
 console.log(num3 - num4);
-
 console.log(num3 * num4);
-
 console.log(num3 / num4);
+
+let remainnum3 = 40 % 3;
+console.log(remainnum3);
+
+let remainnum4 = num4 % 7;
+console.log(remainnum4);
 
 let remain = 20 % 6;
 console.log(remain);
