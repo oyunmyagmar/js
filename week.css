@@ -1,0 +1,14 @@
+.days-ofthe-week {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(246, 242, 242);
+  font-size: 18px;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
