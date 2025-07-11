@@ -8,13 +8,25 @@
   <body>
     <script>
       let n = 20;
-      let index = 0;
-      let sum = 0;
-      let seq1 = 0;
-      let seq2 = 1;
-      let seq3 = seq1 + seq2;
+      let index = 2;
+
+      let seq1 = 0; // 8 -> 13
+      let seq2 = 1; // 13 -> 21
+
+      if (n >= 1) {
+        console.log(seq1);
+      }
+
+      if (n >= 2) {
+        console.log(seq2);
+      }
 
       while (index < n) {
+        seq3 = seq1 + seq2; // 21 -> 34
+        console.log(seq3);
+        seq1 = seq2;
+        seq2 = seq3;
+
         index = index + 1;
       }
     </script>
