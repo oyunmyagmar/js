@@ -1,0 +1,14 @@
+.cardLeapYear {
+  width: 220px;
+  height: 260px;
+  background-color: beige;
+  border-radius: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 25px;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 18px;
+}
