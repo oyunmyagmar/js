@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./ex-loop-sumOddNumsFrom1ToN.css" />
   </head>
   <body>
-    <script>
+    <div class="card-sumOddNumsFrom1ToN">
+      <p>The sum of odd numbers from 1 to n</p>
+      <input id="numLimit-input" />
+      <button id="btn">Submit</button>
+    </div>
+    <!-- <script>
       // option1
       let n = 12;
       let index = 1;
@@ -28,10 +34,11 @@
         index1 = index1 + 1;
 
         if (index1 % 2 == 1) {
-          console.log((sum1 = sum1 + index1));
+          sum1 = sum1 + index1;
         }
       }
       console.log(sum1);
-    </script>
+    </script> -->
   </body>
+  <script src="./ex-loop-sumOddNumsFrom1ToN.js"></script>
 </html>

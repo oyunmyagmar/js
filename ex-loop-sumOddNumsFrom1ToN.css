@@ -1,0 +1,15 @@
+.card-sumOddNumsFrom1ToN {
+  width: 200px;
+  height: 220px;
+  background-color: rgb(208, 221, 208);
+  border-radius: 10px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+p {
+  margin-bottom: 30px;
+}
+button {
+  margin-top: 45px;
+}
