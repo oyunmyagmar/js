@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let star = "";
+      let n = 5;
+
+      let k = 0;
+
+      while (k < n) {
+        let i = 0;
+
+        if (k == 0 || k == n - 1) {
+          while (i < n) {
+            star = star + "*";
+            i = i + 1;
+          }
+        } else {
+          while (i < n) {
+            if (i == 0 || i == 0 + 1 || i == n - 1) {
+              star = star + "*";
+            } else {
+              star = star + " ";
+            }
+
+            i = i + 1;
+          }
+        }
+        k = k + 1;
+        star = star + "\n";
+      }
+      console.log(star);
+    </script>
+  </body>
+</html>
