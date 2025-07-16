@@ -10,7 +10,21 @@
     <div class="card-countDigits">
       <p>How many digits does the number have?</p>
       <input id="num-input" />
-      <button id="btn">Submit</button>
+      <button id="count-btn">Submit</button>
+      <script>
+        let n = 10000;
+        let i = 0;
+
+        while (i < n) {
+          if (n / 10 > 1) {
+            n = n / 10;
+          }
+          i = i + 1;
+
+          console.log(i);
+        }
+      </script>
     </div>
+    <script src="./ex-loop-countDigits.js"></script>
   </body>
 </html>

@@ -1,8 +1,8 @@
-let numInput = document.getElementById("numLimit-input");
+let numNInput = document.getElementById("numNLimit-input");
 let button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
-  let n = parseInt(numInput.value);
+  let n = parseInt(numNInput.value);
   let index = 0;
 
   while (index < n) {

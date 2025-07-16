@@ -3,11 +3,11 @@ let button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
   let timesTable = parseInt(timesTableInput.value);
-  let n = 10;
+  let range = 10;
   let index = 0;
   let X = "x";
 
-  while (index < n) {
+  while (index < range) {
     index = index + 1;
     console.log(index + X + timesTable + "=" + timesTable * index);
   }
