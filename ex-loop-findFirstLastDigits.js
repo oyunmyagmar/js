@@ -3,7 +3,7 @@ let findButton = document.getElementById("find-btn");
 
 findButton.addEventListener("click", () => {
   let number = parseInt(numberInput.value);
-  let i = 0;
+  // let i = 0;
   let firstDigit = 0;
   let lastDigit = 0;
 
@@ -11,7 +11,7 @@ findButton.addEventListener("click", () => {
   console.log(lastDigit + " is the LAST digit");
 
   while (number >= 1) {
-    i = i + 1;
+    // i = i + 1;
     number = number / 10;
     // console.log(i);
     // console.log(number);
