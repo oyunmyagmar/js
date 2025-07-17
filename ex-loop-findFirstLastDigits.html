@@ -15,16 +15,16 @@
 
     <!-- <script src="./ex-loop-findFirstLastDigits.js"></script> -->
     <script>
-      let num = 133343;
+      let num = 1333;
       let i = 0;
       //   let lastDigit = num % 10;
       //   console.log(lastDigit);
       let firstDigit = 0;
 
       while (num >= 1) {
-        firstDigit = num % 10;
+        num = num / 10;
         i = i + 1;
-        console.log(firstDigit);
+        console.log(num % 10);
       }
       //   console.log(num);
       //   let firstDigit = num % 1;
