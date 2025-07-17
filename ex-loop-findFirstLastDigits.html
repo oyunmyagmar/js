@@ -8,27 +8,29 @@
   </head>
   <body>
     <div class="card-findDigits">
-      <p></p>
+      <p>Calculate the FIRST and LAST digits</p>
       <input id="num-input" />
       <button id="find-btn">Submit</button>
     </div>
 
-    <!-- <script src="./ex-loop-findFirstLastDigits.js"></script> -->
-    <script>
-      let num = 1333;
+    <script src="./ex-loop-findFirstLastDigits.js"></script>
+    <!-- <script>
+      let num = 198765430;
       let i = 0;
-      //   let lastDigit = num % 10;
-      //   console.log(lastDigit);
       let firstDigit = 0;
+      let lastDigit = 0;
+
+      lastDigit = num % 10;
+      console.log(lastDigit + " is the LAST digit");
 
       while (num >= 1) {
         num = num / 10;
         i = i + 1;
-        console.log(num % 10);
+        // console.log(num);
+        // console.log(i);
       }
-      //   console.log(num);
-      //   let firstDigit = num % 1;
-      //   console.log(firstDigit);
-    </script>
+      firstDigit = Math.floor(num * 10);
+      console.log(firstDigit + " is the FIRST digit");
+    </script> -->
   </body>
 </html>
