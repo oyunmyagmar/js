@@ -9,15 +9,15 @@
     <script>
       // square star pattern without space
       let result = "";
-      let n = 5;
+      let n = 10;
 
-      let k = 0;
-      while (k < n) {
-        k = k + 1;
+      let y = 0;
+      while (y < n) {
+        y = y + 1;
 
-        let i = 0;
-        while (i < n) {
-          i = i + 1;
+        let x = 0;
+        while (x < n) {
+          x = x + 1;
           result = result + "*";
         }
         result = result + "\n";
@@ -25,21 +25,21 @@
       console.log(result);
 
       // square star pattern with space
-      let star = "";
-      let number = 5;
+      let stars = "";
+      let number = 8;
 
-      let s = 0;
-      while (s < number) {
-        s = s + 1;
+      let y1 = 0;
+      while (y1 < number) {
+        y1 = y1 + 1;
 
-        let index = 0;
-        while (index < number) {
-          index = index + 1;
-          star = star + "* ";
+        let x1 = 0;
+        while (x1 < number) {
+          stars = stars + "* ";
+          x1 = x1 + 1;
         }
-        star = star + "\n";
+        stars = stars + "\n";
       }
-      console.log(star);
+      console.log(stars);
     </script>
   </body>
 </html>

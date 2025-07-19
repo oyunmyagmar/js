@@ -7,34 +7,63 @@
   </head>
   <body>
     <script>
-      let star = "";
-      let n = 5;
+      let stars = "";
+      let number = 10;
 
-      let k = 0;
-      while (k < n) {
-        let i = 0;
+      let y = 0;
 
-        if (k == 0 || k == n - 1) {
-          while (i < n) {
-            star = star + "* ";
-            i = i + 1;
+      while (y < number) {
+        let x = 0;
+
+        if (y == 0 || y == number - 1) {
+          while (x < number) {
+            stars = stars + "* ";
+            x = x + 1;
           }
         } else {
-          while (i < n) {
-            if (i == 0 || i == n - 1) {
-              star = star + "* ";
+          while (x < number) {
+            if (x == 0 || x == number - 1) {
+              stars = stars + "* ";
             } else {
-              star = star + "  ";
+              stars = stars + "  ";
             }
-            i = i + 1;
+            x = x + 1;
           }
         }
 
-        k = k + 1;
-
-        star = star + "\n";
+        stars = stars + "\n";
+        y = y + 1;
       }
-      console.log(star);
+      console.log(stars);
+
+      // let star = "";
+      // let n = 5;
+
+      // let k = 0;
+      // while (k < n) {
+      //   let i = 0;
+
+      //   if (k == 0 || k == n - 1) {
+      //     while (i < n) {
+      //       star = star + "* ";
+      //       i = i + 1;
+      //     }
+      //   } else {
+      //     while (i < n) {
+      //       if (i == 0 || i == n - 1) {
+      //         star = star + "* ";
+      //       } else {
+      //         star = star + "  ";
+      //       }
+      //       i = i + 1;
+      //     }
+      //   }
+
+      //   k = k + 1;
+
+      //   star = star + "\n";
+      // }
+      // console.log(star);
     </script>
   </body>
 </html>
