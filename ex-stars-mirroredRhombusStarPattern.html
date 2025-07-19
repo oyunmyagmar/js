@@ -8,7 +8,7 @@
   <body>
     <script>
       let star = "";
-      let n = 9;
+      let n = 8;
 
       let y = 0;
       while (y < n) {
@@ -20,7 +20,7 @@
             x = x + 1;
           }
         } else {
-          while (x - y < n) {
+          while (x < n + y) {
             if (x >= y) {
               star = star + "* ";
               x = x + 1;

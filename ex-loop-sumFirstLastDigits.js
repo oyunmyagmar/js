@@ -5,7 +5,9 @@ sumButton.addEventListener("click", () => {
   let number = parseInt(numberInput.value);
   let sum = 0;
   let firstDigit = 0;
-  let lastDigit = number % 10;
+  let lastDigit = 0;
+
+  lastDigit = number % 10;
   // console.log(lastDigit);
 
   while (number >= 10) {

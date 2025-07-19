@@ -6,12 +6,16 @@ sumButton.addEventListener("click", () => {
   let digit = 0;
   let sum = 0;
 
-  while (number >= 1) {
-    digit = Math.floor(number % 10);
-    // console.log(digit);
-    number = number / 10;
-    // console.log(number);
-    sum = sum + digit;
+  if (number == 0) {
+    digit = 0;
+  } else {
+    while (number >= 1) {
+      digit = Math.floor(number % 10);
+      console.log(digit);
+      number = number / 10;
+      // console.log(number);
+      sum = sum + digit;
+    }
   }
   console.log(sum);
 });
