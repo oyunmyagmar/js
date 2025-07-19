@@ -6,6 +6,24 @@
     <title>Document</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      let star = "";
+      let n = 6;
+
+      let y = 0;
+
+      while (y < n) {
+        let x = 0;
+
+        while (x < n) {
+          star = star + "* ";
+          x = x + 1;
+        }
+        star = star + "\n";
+        y = y + 1;
+      }
+
+      console.log(star);
+    </script>
   </body>
 </html>

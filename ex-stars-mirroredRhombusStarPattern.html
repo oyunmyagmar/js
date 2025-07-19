@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let star = "";
+      let n = 9;
+
+      let y = 0;
+      while (y < n) {
+        let x = 0;
+
+        if (y == 0) {
+          while (x < n) {
+            star = star + "* ";
+            x = x + 1;
+          }
+        } else {
+          while (x - y < n) {
+            if (x >= y) {
+              star = star + "* ";
+              x = x + 1;
+            } else {
+              star = star + "  ";
+              x = x + 1;
+            }
+          }
+        }
+        star = star + "\n";
+        y = y + 1;
+      }
+
+      console.log(star);
+
+      //   // practice
+      //   let star = "";
+      //   let n = 5;
+
+      //   let y = 0;
+      //   while (y < n) {
+      //     let x = 0;
+
+      //     if (y == 0) {
+      //       while (x < n) {
+      //         star = star + "* ";
+      //         x = x + 1;
+      //       }
+      //     } else if (y == 1) {
+      //       while (x - 1 < n) {
+      //         if (x == 0) {
+      //           star = star + "  ";
+      //           x = x + 1;
+      //         } else {
+      //           star = star + "* ";
+      //           x = x + 1;
+      //         }
+      //       }
+      //     } else if (y == 2) {
+      //       while (x - y < n) {
+      //         if (x == 0 || x == 1) {
+      //           star = star + "  ";
+      //           x = x + 1;
+      //         } else {
+      //           star = star + "* ";
+      //           x = x + 1;
+      //         }
+      //       }
+      //     } else if (y == 3) {
+      //       while (x - y < n) {
+      //         if (x == 0 || x == 1 || x == 2) {
+      //           star = star + "  ";
+      //           x = x + 1;
+      //         } else {
+      //           star = star + "* ";
+      //           x = x + 1;
+      //         }
+      //       }
+      //     } else if (y == 4) {
+      //       while (x - y < n) {
+      //         if (x >= y) {
+      //           star = star + "* ";
+      //           x = x + 1;
+      //         } else {
+      //           star = star + "  ";
+      //           x = x + 1;
+      //         }
+      //       }
+      //     } else {
+      //       while (x < n) {
+      //         star = star + "* ";
+      //         x = x + 1;
+      //       }
+      //     }
+
+      //     star = star + "\n";
+      //     y = y + 1;
+      //   }
+
+      //   console.log(star);
+    </script>
+  </body>
+</html>
