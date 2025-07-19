@@ -8,22 +8,38 @@
   <body>
     <script>
       let star = "";
-      let n = 5;
+      let n = 8;
 
       let y = 0;
 
       while (y < n) {
         let x = 0;
 
-        while (x < n) {
-          if (x <= y) {
-            star = star + "* ";
+        if (y == 0 || y == n - 1) {
+          while (x < n + y) {
+            if (x >= y) {
+              star = star + "* ";
+            } else {
+              star = star + "  ";
+            }
+            x = x + 1;
+          }
+        }
+
+        while (x < n + y) {
+          if (x >= y) {
+            if (x == y || x == y + (n - 1)) {
+              star = star + "* ";
+            } else {
+              star = star + "  ";
+            }
             x = x + 1;
           } else {
             star = star + "  ";
             x = x + 1;
           }
         }
+
         star = star + "\n";
         y = y + 1;
       }
