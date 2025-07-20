@@ -8,16 +8,27 @@
   <body>
     <script>
       let star = "";
-      let n = 5;
+      let n = 9;
 
       let y = 0;
 
       while (y < n) {
         let x = 0;
 
-        while (x < n) {
-          star = star + "* ";
-          x = x + 1;
+        if (y == (n - 1) / 2) {
+          while (x < n) {
+            star = star + "* ";
+            x = x + 1;
+          }
+        } else {
+          while (x < n) {
+            if (x == (n - 1) / 2) {
+              star = star + "* ";
+            } else {
+              star = star + "- ";
+            }
+            x = x + 1;
+          }
         }
 
         star = star + "\n";
