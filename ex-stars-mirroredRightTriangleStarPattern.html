@@ -16,13 +16,12 @@
         let x = 0;
 
         while (x < n) {
-          if (x == y) {
+          if (x >= n - 1 - y) {
             star = star + "* ";
-            x = x + 1;
           } else {
             star = star + "  ";
-            x = x + 1;
           }
+          x = x + 1;
         }
         star = star + "\n";
         y = y + 1;

@@ -8,21 +8,21 @@
   <body>
     <script>
       let star = "";
-      let n = 6;
+      let n = 5;
 
       let y = 0;
 
       while (y < n) {
         let x = 0;
 
-        if (y == 0) {
+        if (y == 0 || y == n - 1) {
           while (x < n) {
             star = star + "* ";
             x = x + 1;
           }
         } else {
           while (x < n) {
-            if (x <= n - 1 - y) {
+            if (x == 0 || x == n - 1 - y || x == n - 1) {
               star = star + "* ";
             } else {
               star = star + "  ";
@@ -36,6 +36,27 @@
       }
 
       console.log(star);
+
+      //   //practice x diagonal part
+      //   if (x == 0 || x == n - 1) {
+      //     star = star + "* ";
+      //   } else {
+      //     star = star + "  ";
+      //   }
+      //   x = x + 1;
+      //   if (x == 0 || x == 3 || x == 4) {
+      //     star = star + "* ";
+      //   } else {
+      //     star = star + "  ";
+      //   }
+      //   x = x + 1;
+
+      //   if (x == 0 || x == 2 || x == 4) {
+      //     star = star + "* ";
+      //   } else {
+      //     star = star + "  ";
+      //   }
+      //   x = x + 1;
     </script>
   </body>
 </html>
