@@ -7,14 +7,14 @@ swapButton.addEventListener("click", () => {
   let firstDigit = 0;
   let lastDigit = 0;
   let count = 0;
+  let reverse = 0;
 
   while (number >= 1) {
     digit = number % 10;
-    // console.log(digit);
-    firstDigit = digit;
-    console.log(firstDigit);
+    console.log(digit);
+    reverse = digit * 10 + digit;
     number = Math.floor(number / 10);
-    // console.log(number);
+    console.log(reverse);
   }
 });
 // let count = 0;
