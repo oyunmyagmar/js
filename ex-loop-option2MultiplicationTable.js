@@ -7,8 +7,19 @@ button.addEventListener("click", () => {
   let index = 0;
   let X = "x";
 
+  document.getElementById("answer").innerText = "";
+
   while (index < range) {
     index = index + 1;
     console.log(index + X + timesTable + "=" + timesTable * index);
+
+    document.getElementById("answer").innerText =
+      document.getElementById("answer").innerText +
+      "\n" +
+      index +
+      X +
+      timesTable +
+      "=" +
+      timesTable * index;
   }
 });

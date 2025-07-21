@@ -6,6 +6,8 @@ button.addEventListener("click", () => {
   let i = 0;
   let sum = 0;
 
+  document.getElementById("answer").innerText = "";
+
   while (i < n) {
     i = i + 1;
     if (i % 2 == 1) {
@@ -14,4 +16,6 @@ button.addEventListener("click", () => {
     }
   }
   console.log(sum);
+  document.getElementById("answer").innerText =
+    document.getElementById("answer").innerText + "\n" + sum;
 });

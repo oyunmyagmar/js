@@ -6,10 +6,14 @@ btn.addEventListener("click", () => {
   let index = 0;
   let sum = 0;
 
+  document.getElementById("answer").innerText = "";
+
   while (index < numN) {
     index = index + 1;
     // console.log(index);
     sum = sum + index;
   }
   console.log(sum);
+  document.getElementById("answer").innerText =
+    document.getElementById("answer").innerText + "\n" + sum;
 });
