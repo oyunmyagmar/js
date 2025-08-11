@@ -1,12 +1,3 @@
-//name
-let input = document.getElementById("name-input");
-let button = document.getElementById("namebtn-input");
-let hello = "Hello! ";
-
-button.addEventListener("click", () => {
-  console.log(hello + input.value);
-});
-
 // + - * / calculator
 let num1 = document.getElementById("num1-input");
 let num2 = document.getElementById("num2-input");
